@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ja" ng-app="myapp">
+<%- include('./views/_head', {
+	pageName: 'トップページ'
+}) %>
+<body ng-controller="appCtrl">
+
+	<ng-include src="viewsHeader"></ng-include>
+	
+	<% include _views/scripts %>
+
+</body>
+</html>
